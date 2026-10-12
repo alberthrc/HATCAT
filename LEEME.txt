@@ -1,0 +1,14 @@
+HATCAT Traveller - web 3D con scroll
+
+Contenido
+- index.html : la página completa (HTML, CSS y JS)
+- frames/    : 240 cuadros WebP del sombrero sin fondo (h001 a h240)
+
+Cómo verla
+Abre index.html en el navegador. Si los cuadros no cargan al abrirla
+directamente desde el disco, sírvela con un servidor local, por ejemplo:
+  npx serve .        o        python3 -m http.server
+y entra a http://localhost:3000 (o :8000).
+
+Librerías (desde CDN): GSAP 3.12.5 + ScrollTrigger, Lenis 1.1.13
+Fuentes: Bodoni Moda, Hanken Grotesk, IBM Plex Mono (Google Fonts)
